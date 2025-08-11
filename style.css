@@ -17,7 +17,7 @@ header {
   justify-content: space-around;
   margin-left: 250px;
   position: fixed;
-  top: 0;
+  top: 20px;
 }
 header h2 {
   background-color: #2b300e;
@@ -63,7 +63,7 @@ header nav ul li a {
   height: 250px;
   margin: auto;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 100px;
 }
 .txt h1 {
   font-family: Roobert, sans-serif;
@@ -123,5 +123,123 @@ header nav ul li a {
   font-size: clamp(16px, 2vw, 28px);
   font-weight: bold;
   padding: 10px 25px;
-  margin: 0 5px;
+  margin: 10px 05px;
+}
+marquee {
+  margin-top: 30px;
+}
+.txt2 {
+  width: 62vw;
+  margin: auto;
+  text-align: center;
+}
+.txt2 h2 {
+  font-family: Roobert, sans-serif;
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 56px;
+  color: rgb(43, 48, 14);
+}
+.txt2 p {
+  font-family: Roobert, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+  margin-top: 20px;
+  color: rgb(43, 48, 14);
+}
+.gird {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+}
+.box1 {
+  width: 384px;
+  height: 250px;
+  background-color: #4eb684;
+  border-radius: 20px;
+  justify-self: center;
+}
+.box1 h2 {
+  /* background-color: #2b300e; */
+  color: #ebe212;
+  width: 150px;
+  text-transform: uppercase;
+  font-weight: 1000;
+  font-size: 20px;
+}
+.hed1 {
+  background-color: #2b300e;
+  /* float: left; */
+  /* width: 40px; */
+}
+.hed2 {
+  position: relative;
+  background: #2b300e;
+  left: 72px;
+}
+.hed3 {
+  background-color: #2b300e;
+  position: relative;
+  top: -43px;
+  left: 222px;
+  /* bottom: 10px; */
+}
+.box1 img {
+  width: 315px;
+  float: right;
+  position: relative;
+  top: -69px;
+}
+.box1 h3 {
+  font-size: 18px;
+  position: relative;
+  top: -33px;
+  left: 20px;
+}
+
+.box1 p {
+  /* margin-bottom: 10px; */
+  /* padding-bottom:10px ; */
+  position: relative;
+  top: -23px;
+}
+
+.box2 {
+  background-color: #ebe212;
+  width: 282px;
+  height: 250px;
+  border-radius: 20px;
+  text-align: center;
+  justify-self: center;
+}
+.box2 img {
+  width: 150px;
+  padding-top: 30px;
+}
+.box3 {
+  width: 280px;
+  height: 250px;
+  background-color: #ebe212;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 20px;
+  justify-self: end;
+}
+
+.box3 img {
+  width: 150px;
+}
+.box4 {
+  background-color: #4eb684;
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 20px;
+  grid-row: 4/2;
+}
+.box4 img {
+  width: 375px;
+  padding-top: 5px;
 }
