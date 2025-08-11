@@ -15,7 +15,8 @@ header {
   background-color: #ebe212;
   display: flex;
   justify-content: space-around;
-  margin: auto;
+  margin-left: 250px;
+  /* position: fixed; */
 }
 header h2 {
   background-color: #2b300e;
@@ -86,4 +87,38 @@ header nav ul li a {
   padding: 20px 150px;
   background-color: #222222;
   border-radius: 10px;
+}
+.slider {
+  width: 837px;
+  height: 313px;
+  background-color: #1b5ec9;
+  margin-top: 150px;
+  /* margin: auto; */
+  border-radius: 10px;
+}
+.top {
+  text-align: center;
+  margin: auto;
+  max-width: 840px;
+}
+.hed {
+  text-transform: uppercase;
+  background-color: #2b300e;
+  font-family: Roobert, sans-serif;
+  width: 210px;
+  height: 70px;
+  font-size: 29px;
+  font-weight: 600;
+  line-height: 65px;
+  color: yellow;
+  text-align: center;
+  margin-top: 20px;
+}
+.tile {
+  background-color: #000;
+  color: yellow;
+  font-size: clamp(16px, 2vw, 28px);
+  font-weight: bold;
+  padding: 10px 25px;
+  margin: 0 5px;
 }
