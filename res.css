@@ -174,4 +174,7 @@
     flex-direction: column;
     gap: 20px;
   }
+  .box2 img {
+    padding-top: 15px;
+  }
 }
