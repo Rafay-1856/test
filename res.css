@@ -1,0 +1,152 @@
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  header {
+    width: 745px;
+    border-radius: 30px;
+    margin-left: 12px;
+  }
+  nav {
+    visibility: hidden;
+  }
+  .top {
+    max-width: 651px;
+  }
+  .slider {
+    width: 650px;
+  }
+  .txt {
+    width: 85vw;
+    overflow: hidden;
+  }
+  .txt h1 {
+    font-size: 45px;
+    line-height: 1;
+  }
+  .txt p {
+    width: 485px;
+    margin-left: 90px;
+  }
+  .text-div {
+    width: 750px;
+  }
+  .txt2 {
+    width: 100vw;
+  }
+  .txt2 h2 {
+    font-size: 42px;
+  }
+  .txt2 p {
+    width: 625px;
+    margin-left: 90px;
+  }
+  .txt4 {
+    max-width: 100vw;
+    position: relative;
+    left: 0;
+  }
+  .txt4 h2 {
+    font-size: 35px;
+  }
+  .flex-container {
+    align-items: baseline;
+    height: 950px;
+    justify-content: space-around;
+  }
+  .ihi {
+    width: 300px;
+  }
+  .heading04 h3 {
+    font-size: 2.5rem;
+  }
+  .heading04 {
+    margin-bottom: 190px;
+  }
+  .heading04 a {
+    padding: 10px 102px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    width: 460px;
+    border-radius: 30px;
+    margin-left: 10px;
+  }
+  nav {
+    visibility: hidden;
+  }
+  header h2 {
+    margin-left: 20px;
+  }
+  .Btn {
+    position: relative;
+    right: 100px;
+    line-height: 20px;
+  }
+  .txt h1 {
+    font-size: 23px;
+    line-height: 40px;
+  }
+  .txt a {
+    padding: 20px 50px;
+  }
+  .top {
+    max-width: 479px;
+  }
+  .slider {
+    width: 479px;
+  }
+  .txt2 h2 {
+    font-size: 22px;
+    line-height: 23px;
+    margin-top: 50px;
+  }
+  .gird {
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+  }
+  .box3,
+  .box4 {
+    justify-self: center;
+  }
+  .txt4 h2 {
+    font-size: 30px;
+    line-height: 29px;
+  }
+  .max {
+    margin-top: 30px;
+  }
+  .flex-container {
+    width: 80vw;
+    height: 1335px;
+    margin: auto;
+    align-items: flex-start;
+  }
+  .txt5 {
+    text-align: center;
+  }
+  .text-div {
+    width: 480px;
+  }
+  .txt6 a {
+    padding: 15px 110px;
+  }
+  .grid2 {
+    grid-template-columns: 1fr;
+  }
+  .ml h2 {
+    font-size: 2.5rem;
+    letter-spacing: normal;
+  }
+  .rang {
+    column-count: 1;
+  }
+  .ihi {
+    width: 200px;
+  }
+  .heading04 a {
+    padding: 10px 40px;
+  }
+  marquee {
+    margin-top: 50px;
+  }
+}
