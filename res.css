@@ -65,9 +65,9 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 375px) and (max-width: 480px) {
   header {
-    width: 460px;
+    width: 355px;
     border-radius: 30px;
     margin-left: 10px;
   }
@@ -79,38 +79,57 @@
   }
   .Btn {
     position: relative;
-    right: 100px;
+    right: 200px;
     line-height: 20px;
   }
+  .txt {
+    width: 90vw;
+    margin-top: 150px;
+  }
   .txt h1 {
-    font-size: 23px;
+    font-size: 33px;
     line-height: 40px;
   }
   .txt a {
     padding: 20px 50px;
   }
   .top {
-    max-width: 479px;
+    max-width: 340px;
   }
   .slider {
-    width: 479px;
+    width: 337px;
+  }
+  .txt2 {
+    width: 90vw;
   }
   .txt2 h2 {
-    font-size: 22px;
-    line-height: 23px;
+    font-size: 30px;
+    line-height: 40px;
     margin-top: 50px;
   }
   .gird {
     grid-template-columns: 1fr;
-    row-gap: 10px;
+    row-gap: 30px;
   }
+  .box1,
+  .box4 {
+    margin-right: 25px;
+    width: 375px;
+  }
+  /* .box4{
+    width: 375px;
+  } */
   .box3,
   .box4 {
     justify-self: center;
   }
+  .txt4 {
+    left: 15%;
+    width: 90vw;
+  }
   .txt4 h2 {
     font-size: 30px;
-    line-height: 29px;
+    line-height: 30px;
   }
   .max {
     margin-top: 30px;
@@ -125,7 +144,10 @@
     text-align: center;
   }
   .text-div {
-    width: 480px;
+    width: 100vw;
+  }
+  .txt6 {
+    width: 100%;
   }
   .txt6 a {
     padding: 15px 110px;
@@ -141,12 +163,16 @@
     column-count: 1;
   }
   .ihi {
-    width: 200px;
+    width: 120px;
   }
   .heading04 a {
     padding: 10px 40px;
   }
   marquee {
     margin-top: 50px;
+  }
+  .footer-maneu {
+    flex-direction: column;
+    gap: 20px;
   }
 }
